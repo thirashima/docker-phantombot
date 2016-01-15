@@ -1,6 +1,7 @@
 Docker-PhantomBot
 =================
 
+[Dockerfile][1]
 
 To run this docker image use
 
@@ -9,3 +10,10 @@ To run this docker image use
  ```bot_name```, ```bot_owner```, ```bot_channel``` should just be a username, eg ```tuxyq```. ```oauth_key``` has to be in the format ```oauth:abcdabcdbcd9bqfp9nf6wkl3mb9ps2```
 
 The container exposes port 25000, 25001 and 25002
+
+You can also optionally specify the variable ```PB_VERSION``` with the desired version of Phantombot, eg.
+```
+-e "PB_VERSION=1.6.6"
+```
+
+[1]: https://github.com/thorerik/docker-phantombot/blob/master/Dockerfile
