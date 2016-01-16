@@ -1,5 +1,6 @@
 Docker-PhantomBot
 =================
+[![ImageLayers Layers](https://img.shields.io/imagelayers/layers/thorerik/phantombot/latest.svg?style=flat-square)](https://imagelayers.io/?images=thorerik/phantombot:latest) [![Layer Size](https://badge.imagelayers.io/thorerik/phantombot:latest.svg)](https://imagelayers.io/?images=thorerik/phantombot:latest) [![Docker Stars](https://img.shields.io/docker/stars/thorerik/phantombot.svg?style=flat-square)](https://hub.docker.com/r/thorerik/phantombot/) [![Docker Pulls](https://img.shields.io/docker/pulls/thorerik/phantombot.svg?style=flat-square)](https://hub.docker.com/r/thorerik/phantombot/)
 
 [Dockerfile][1]
 
