@@ -17,4 +17,7 @@ You can also optionally specify the variable ```PB_VERSION``` with the desired v
 -e "PB_VERSION=1.6.6"
 ```
 
+optionally you can provide your own botlogin.txt by passing ```-v /path/to/botlogin.txt:/provided_botlogin.txt``` (change 1.6.6.1 if you have specified PB_VERSION)  
+It's then recommended to set the ```datastore=``` key in your botlogin.txt to /persistent and pass ```-v /path/to/persistent:/persistent```
+
 [1]: https://github.com/thorerik/docker-phantombot/blob/master/Dockerfile

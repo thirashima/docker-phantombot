@@ -17,6 +17,13 @@ if [ "$1" = 'phantombot' ]; then
         && chmod +x "/docker/PhantomBot-${PB_VERSION}/launch-service.sh"
     fi
 
+    if [ -f /provided_botlogin.txt ]; then
+        cp /provided_botlogin.txt /docker/PhantomBot-${PB_VERSION}/botlogin.txt
+    fi
+    if [ -d /persistent ]; then
+        ln -sf /persistent/phantombot.db /docker/PhantomBot-${PB_VERSION}/phantombot.db
+    fi
+
     /docker/PhantomBot-${PB_VERSION}/launch-service.sh
 fi
 exec "$@"
