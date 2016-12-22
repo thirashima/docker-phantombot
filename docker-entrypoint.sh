@@ -5,7 +5,7 @@ if [ "$1" = 'phantombot' ]; then
     if [ ! -d /docker/PhantomBot-${PB_VERSION} ]; then
         wget \
         --header="User-Agent: Docker-man" \
-        http://www.phantombot.net/downloads/PhantomBot-${PB_VERSION}.zip \
+        https://github.com/PhantomBot/PhantomBot/releases/download/v${PB_VERSION}/PhantomBot-${PB_VERSION}.zip \
         && unzip -o PhantomBot-${PB_VERSION}.zip -d /docker/ \
         && rm -f PhantomBot-${PB_VERSION}.zip \
         && mv /botlogin.txt /docker/PhantomBot-${PB_VERSION}/ \
