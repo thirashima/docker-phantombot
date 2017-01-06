@@ -10,7 +10,7 @@ To run this docker image use
 
  ```bot_name```, ```bot_owner```, ```bot_channel``` should just be a username, eg ```tuxyq```. ```oauth_key``` has to be in the format ```oauth:abcdabcdbcd9bqfp9nf6wkl3mb9ps2```
 
-The container exposes port 25000, 25001 and 25002
+The container exposes port 25000, 25002, 25003, 25004 and 25005
 
 You can also optionally specify the variable ```PB_VERSION``` with the desired version of Phantombot, eg.
 ```
