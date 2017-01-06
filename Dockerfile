@@ -13,5 +13,5 @@ RUN apt-get clean && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
-EXPOSE 25000 25001 25002
+EXPOSE 25000 25002 25003 25004 25005
 CMD ["phantombot"]
