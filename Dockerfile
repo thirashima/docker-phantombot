@@ -1,7 +1,6 @@
-FROM debian:jessie
+FROM openjdk:8
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
-    openjdk-7-jre-headless \
     unzip \
     wget
 
