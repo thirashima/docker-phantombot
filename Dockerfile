@@ -4,7 +4,7 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
     unzip \
     wget
 
-ENV PB_VERSION="2.3.5"
+ENV PB_VERSION="2.3.5.1"
 
 RUN mkdir -p /docker
 COPY ./docker-entrypoint.sh /
